@@ -1,18 +1,25 @@
-DS_Store
+# Ignore system files
+.DS_Store
 Thumbs.db
 *.swp
 *.swo
 *~
+
+# Ignore IDE
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# Ignore environment
 .env
 .env.local
 .env.*.local
+
+# Ignore logs
 *.log
 logs/
+
+# Ignore vendor
 vendor/
 node_modules/
-.AppleDouble
-.LSOverride
